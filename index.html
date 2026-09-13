@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ฟังคุณ | FANG KHUN — พื้นที่รับฟังแบบเป็นส่วนตัว ไม่ตัดสิน สำหรับผู้ใหญ่ที่อยากเล่า ระบาย หรืออยากมีใครสักคนฟัง" />
+  <title>ฟังคุณ | FANG KHUN</title>
+  <style>
+    :root{
+      --cream:#f6efe7;
+      --paper:#fffaf5;
+      --brown:#5f493f;
+      --brown-2:#81685d;
+      --pink:#d9b7b0;
+      --line:#e7d9cf;
+      --white:#fff;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans Thai",sans-serif;
+      color:var(--brown);
+      background:linear-gradient(180deg,#f7efe7 0%,#f4e9df 55%,#efe1d6 100%);
+      line-height:1.75;
+    }
+    a{color:inherit}
+    .wrap{max-width:980px;margin:auto;padding:0 22px}
+    .nav{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:24px 0;
+    }
+    .brand{font-weight:700;letter-spacing:.04em}
+    .nav a{text-decoration:none;font-size:.95rem}
+    .hero{
+      min-height:72vh;
+      display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center;
+      padding:46px 0 72px;
+    }
+    .eyebrow{font-size:.86rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brown-2)}
+    h1{font-size:clamp(2.6rem,7vw,5.4rem);line-height:1.05;margin:.4rem 0 1rem;font-weight:700}
+    .lead{font-size:clamp(1.15rem,2.4vw,1.45rem);max-width:640px}
+    .sub{color:var(--brown-2);max-width:620px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{
+      display:inline-block;text-decoration:none;padding:14px 20px;border-radius:999px;
+      border:1px solid var(--brown);font-weight:600;
+    }
+    .btn.primary{background:var(--brown);color:white}
+    .card{
+      background:rgba(255,250,245,.86);border:1px solid rgba(95,73,63,.12);
+      border-radius:28px;padding:34px;box-shadow:0 20px 60px rgba(95,73,63,.08)
+    }
+    .room{
+      min-height:420px;position:relative;overflow:hidden;
+      background:linear-gradient(145deg,#ead9cd,#f8efe7 58%,#e4c8bf);
+    }
+    .lamp{position:absolute;right:34px;top:48px;width:72px;height:72px;border-radius:50%;background:#f4d6a8;box-shadow:0 0 70px #f0c882}
+    .chair{position:absolute;left:52px;bottom:70px;width:180px;height:190px;border-radius:88px 88px 26px 26px;background:#d8b8ad;box-shadow:inset 0 -25px 40px rgba(95,73,63,.08)}
+    .table{position:absolute;right:64px;bottom:80px;width:110px;height:14px;border-radius:20px;background:#8c6f60}
+    .table:after{content:"";position:absolute;left:48px;top:12px;width:12px;height:88px;background:#8c6f60;border-radius:8px}
+    .mug{position:absolute;right:95px;bottom:102px;width:48px;height:44px;border-radius:8px 8px 16px 16px;background:#fff8f1;border:2px solid #c8a89e}
+    .shadow{position:absolute;inset:0;background:radial-gradient(circle at 18% 12%,rgba(255,255,255,.45),transparent 35%),linear-gradient(110deg,transparent 60%,rgba(120,95,82,.05));}
+    section{padding:68px 0}
+    h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.25;margin:0 0 18px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .mini{background:rgba(255,250,245,.74);border:1px solid var(--line);border-radius:20px;padding:22px}
+    .price-wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:650px}
+    .price{font-size:2rem;font-weight:700;margin:.2rem 0}
+    .note{font-size:.92rem;color:var(--brown-2)}
+    .quote{font-size:clamp(1.5rem,4vw,2.4rem);line-height:1.5;max-width:760px;margin:auto;text-align:center}
+    footer{padding:34px 0 48px;color:var(--brown-2);font-size:.9rem}
+    @media(max-width:760px){
+      .hero{grid-template-columns:1fr;min-height:auto;padding-top:18px}
+      .room{min-height:330px}
+      .grid3,.price-wrap{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">ฟังคุณ | FANG KHUN 🕊️</div>
+      <a href="#booking">จองเวลา</a>
+    </nav>
+
+    <main class="hero">
+      <div>
+        <div class="eyebrow">Paid listening service for adults</div>
+        <h1>ชีวิตไม่ง่าย<br>ใช่ไหม</h1>
+        <p class="lead">ช่วงนี้อยากมีใครสักคนฟังไหม</p>
+        <p class="sub">บางเรื่องเล่าให้ใครฟังก็ยาก บางเรื่องก็แค่อยากมีคนอยู่ข้าง ๆ และฟังจนจบ ฟังคุณเป็นพื้นที่รับฟังแบบเป็นส่วนตัว ไม่ตัดสิน และไม่มีการบันทึกเสียง</p>
+        <div class="actions">
+          <a class="btn primary" href="https://line.me/R/ti/p/@031tsfws" target="_blank" rel="noopener">คุยกับฟังคุณทาง LINE</a>
+          <a class="btn" href="#pricing">ดูราคา</a>
+        </div>
+      </div>
+
+      <div class="card room" aria-label="มุมห้องเงียบสงบสำหรับการรับฟัง">
+        <div class="lamp"></div><div class="chair"></div><div class="table"></div><div class="mug"></div><div class="shadow"></div>
+      </div>
+    </main>
+
+    <section>
+      <div class="quote">“อยากเล่า อยากระบาย หรือแค่อยากมีใครฟัง คุยกับฟังคุณได้เลย”</div>
+    </section>
+
+    <section>
+      <h2>พื้นที่ที่ไม่รีบสอนคุณ</h2>
+      <div class="grid3">
+        <div class="mini"><strong>คุยได้ทุกเรื่อง</strong><br><span class="note">เล่าได้เท่าที่อยากเล่า</span></div>
+        <div class="mini"><strong>ไม่ตัดสิน</strong><br><span class="note">เราอยู่ข้างคนพูด และฟังจนจบ</span></div>
+        <div class="mini"><strong>เป็นส่วนตัว</strong><br><span class="note">ไม่มีการบันทึกเสียง</span></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>เลือกเวลาที่พอดีกับคุณ</h2>
+      <div class="price-wrap">
+        <div class="mini"><div>VOICE CALL</div><div class="price">15 นาที · 99 บาท</div><div class="note">สำหรับวันที่อยากเล่าสั้น ๆ หรือแค่อยากมีคนฟังสักพัก</div></div>
+        <div class="mini"><div>VOICE CALL</div><div class="price">30 นาที · 199 บาท</div><div class="note">สำหรับเรื่องที่อยากมีเวลาค่อย ๆ เล่า โดยไม่ถูกเร่ง</div></div>
+      </div>
+    </section>
+
+    <section id="booking">
+      <div class="card">
+        <h2>ถ้าอยากคุย เราอยู่นี่นะ 🤍</h2>
+        <p>ทักมาจองเวลาได้ทาง LINE Official Account</p>
+        <div class="actions">
+          <a class="btn primary" href="https://line.me/R/ti/p/@031tsfws" target="_blank" rel="noopener">LINE OA @031tsfws</a>
+        </div>
+        <p class="note" style="margin-top:22px">ฟังคุณเป็นพื้นที่รับฟังสำหรับผู้ใหญ่ ไม่ใช่บริการบำบัด บริการทางการแพทย์ หรือบริการฉุกเฉิน</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="wrap">© 2026 ฟังคุณ | FANG KHUN — A place to talk, without being judged.</div>
+  </footer>
+</body>
+</html>
