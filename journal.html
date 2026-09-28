@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="FANG KHUN Journal — เรื่องราวธรรมดาเกี่ยวกับการคุย การฟัง และรูปแบบบทสนทนาที่เติมเต็มต่างกัน">
+<title>FANG KHUN Journal</title>
+<style>
+:root{--cream:#f6efe7;--brown:#5f493f;--brown2:#81685d;--line:#e7d9cf}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans Thai",sans-serif;color:var(--brown);background:linear-gradient(180deg,#f7efe7 0%,#f4e9df 55%,#efe1d6 100%);line-height:1.8}
+.wrap{max-width:1040px;margin:auto;padding:0 22px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+.brand{font-weight:700}.nav-actions{display:flex;align-items:center;gap:14px}
+.nav a{text-decoration:none;color:inherit}.lang-toggle{background:transparent;border:0;color:var(--brown);font:inherit;font-weight:700;cursor:pointer}
+.hero{padding:50px 0 36px}.eyebrow{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brown2)}
+h1{font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.08;margin:.7rem 0 1rem}
+.lead{font-size:1.15rem;color:var(--brown2);max-width:760px}
+.article{background:rgba(255,250,245,.82);border:1px solid rgba(95,73,63,.12);border-radius:28px;box-shadow:0 20px 60px rgba(95,73,63,.08);overflow:hidden;margin:26px 0 70px}
+.article img{width:100%;display:block;aspect-ratio:16/8;object-fit:cover}
+.article-body{padding:34px}
+.article-body h2{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.35;margin:0 0 12px}
+.article-body p{margin:0 0 18px}
+.note{color:var(--brown2)}
+.back{display:inline-block;margin-top:12px;text-decoration:none;color:var(--brown);font-weight:700}
+footer{padding:30px 22px 48px;color:var(--brown2);font-size:.9rem}
+@media(max-width:820px){.article-body{padding:24px}.article img{aspect-ratio:1/1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="nav">
+<div class="brand">ฟังคุณ | FANG KHUN 🕊️</div>
+<div class="nav-actions">
+<button class="lang-toggle" id="langToggle" type="button">EN</button>
+<a href="./index.html" data-th="หน้าหลัก" data-en="Home">หน้าหลัก</a>
+<a href="./index.html#booking" data-th="จองเวลา" data-en="Book a time">จองเวลา</a>
+</div>
+</nav>
+
+<header class="hero">
+<div class="eyebrow">FANG KHUN JOURNAL</div>
+<h1 data-th="เรื่องธรรมดาเกี่ยวกับการคุย" data-en="Ordinary stories about conversation">เรื่องธรรมดาเกี่ยวกับการคุย</h1>
+<p class="lead" data-th="การคุยไม่ได้มีรูปแบบเดียว บางคนชอบโทร บางคนชอบนั่งคุย บางคนคุยได้ดีที่สุดตอนกำลังทำอะไรไปด้วย" data-en="Conversation does not have one form. Some people prefer phone calls, some like sitting together, and some talk best while doing something else.">การคุยไม่ได้มีรูปแบบเดียว บางคนชอบโทร บางคนชอบนั่งคุย บางคนคุยได้ดีที่สุดตอนกำลังทำอะไรไปด้วย</p>
+</header>
+
+<article class="article">
+<img src="./journal-cafe-conversation.png" alt="Two people having a calm conversation in a cafe">
+<div class="article-body">
+<div class="eyebrow" data-th="การคุยในแบบของเรา" data-en="Conversation, our way">การคุยในแบบของเรา</div>
+<h2 data-th="บางคนชอบโทร บางคนชอบนั่งคุย" data-en="Some people prefer calls. Some prefer sitting down to talk.">บางคนชอบโทร บางคนชอบนั่งคุย</h2>
+<p data-th="การคุยไม่ได้มีรูปแบบเดียว" data-en="Conversation does not have one form.">การคุยไม่ได้มีรูปแบบเดียว</p>
+<p data-th="บางคนชอบโทรหาใครสักคนตอนเดินกลับบ้าน ไม่ต้องมองหน้ากัน ไม่ต้องนั่งเป็นเรื่องเป็นราว แค่ได้ยินเสียงอีกคนอยู่ปลายสายก็รู้สึกสบายขึ้น" data-en="Some people like calling someone while walking home. No eye contact, no formal setting—just hearing another person on the line can already feel comforting.">บางคนชอบโทรหาใครสักคนตอนเดินกลับบ้าน ไม่ต้องมองหน้ากัน ไม่ต้องนั่งเป็นเรื่องเป็นราว แค่ได้ยินเสียงอีกคนอยู่ปลายสายก็รู้สึกสบายขึ้น</p>
+<p data-th="บางคนกลับชอบการนั่งคุยมากกว่า กาแฟหนึ่งแก้ว โต๊ะหนึ่งตัว แล้วปล่อยให้บทสนทนาค่อย ๆ ไหลไป เรื่องหนึ่งพาไปอีกเรื่องหนึ่ง โดยไม่จำเป็นต้องมีหัวข้อชัดเจน" data-en="Others prefer sitting down together: one coffee, one table, and a conversation that slowly moves from one thing to another without needing a clear agenda.">บางคนกลับชอบการนั่งคุยมากกว่า กาแฟหนึ่งแก้ว โต๊ะหนึ่งตัว แล้วปล่อยให้บทสนทนาค่อย ๆ ไหลไป เรื่องหนึ่งพาไปอีกเรื่องหนึ่ง โดยไม่จำเป็นต้องมีหัวข้อชัดเจน</p>
+<p data-th="บางคนคุยได้ดีที่สุดตอนกำลังทำอะไรไปด้วย เดินเล่น ขับรถ กินข้าว หรือนั่งมองฝน เพราะการไม่ได้ตั้งใจว่าเรากำลังจะคุยเรื่องสำคัญ กลับทำให้หลายเรื่องพูดออกมาได้ง่ายกว่า" data-en="Some people talk best while doing something else—walking, driving, eating, or watching the rain. Not framing the moment as an important conversation can make some things easier to say.">บางคนคุยได้ดีที่สุดตอนกำลังทำอะไรไปด้วย เดินเล่น ขับรถ กินข้าว หรือนั่งมองฝน เพราะการไม่ได้ตั้งใจว่าเรากำลังจะคุยเรื่องสำคัญ กลับทำให้หลายเรื่องพูดออกมาได้ง่ายกว่า</p>
+<p data-th="และบางคนอาจชอบหลายแบบ ขึ้นอยู่กับวันนั้นและเรื่องที่อยากเล่า" data-en="And some people like different formats on different days, depending on what they want to talk about.">และบางคนอาจชอบหลายแบบ ขึ้นอยู่กับวันนั้นและเรื่องที่อยากเล่า</p>
+<p class="note" data-th="บางครั้งสิ่งที่ทำให้เรารู้สึกดีหลังจากคุยกับใครสักคน อาจไม่ใช่เพราะเราได้คำตอบใหม่ แต่อาจเป็นเพราะเราได้พูด ได้เรียบเรียงสิ่งที่อยู่ในหัว หรือแค่ได้ใช้เวลาอยู่ในบทสนทนาที่รู้สึกสบาย" data-en="Sometimes what feels good after talking to someone is not getting a new answer. It may simply be having spoken, organized what was in our head, or spent time in a conversation that felt easy.">บางครั้งสิ่งที่ทำให้เรารู้สึกดีหลังจากคุยกับใครสักคน อาจไม่ใช่เพราะเราได้คำตอบใหม่ แต่อาจเป็นเพราะเราได้พูด ได้เรียบเรียงสิ่งที่อยู่ในหัว หรือแค่ได้ใช้เวลาอยู่ในบทสนทนาที่รู้สึกสบาย</p>
+<a class="back" href="./index.html" data-th="← กลับหน้าหลัก" data-en="← Back home">← กลับหน้าหลัก</a>
+</div>
+</article>
+</div>
+<footer><div class="wrap">© 2026 ฟังคุณ | FANG KHUN — A place to talk, without being judged.</div></footer>
+<script>
+const langToggle=document.getElementById('langToggle');let lang='th';
+langToggle.addEventListener('click',()=>{lang=lang==='th'?'en':'th';document.documentElement.lang=lang;document.querySelectorAll('[data-th][data-en]').forEach(el=>{el.innerHTML=el.dataset[lang]});langToggle.textContent=lang==='th'?'EN':'TH';});
+</script>
+</body></html>
