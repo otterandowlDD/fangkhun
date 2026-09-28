@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fangkhun.vercel.app/sitemap.xml
